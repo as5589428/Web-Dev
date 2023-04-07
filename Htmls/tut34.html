@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container {
+    display: flex;
+}
+.card {
+    padding:23px 12px;
+    border:1px solid red;
+    margin:23px 12px;
+    background-color:brown;
+    /*box-shadow: offset-x offset-y color*/
+    /*box-shadow: offset-x offset-y blur-radius spread-radius color*/
+    
+    /*box-shadow: 10px 13px 10px 15px green;*/
+    box-shadow: 10px 13px 10px 15px rgba(121, 178, 179, 5);
+    box-shadow: inset 3px 50px green , 4px 60px purple;
+}
+.card h2{
+    /* this is text shadow: use for give highlights to a text we want anywhere it is same as box-shadow*/
+   /* text-shadow:3px 4px white;*/
+   /*text-shadow:we can also make blue a text with blue-radius*/
+   text-shadow:3px 2px  2px white;
+}
+</style>
+<body>
+    <div class="container">
+    <div class="card" id="card-1">
+    <h2>This is C++ Course</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta, laudantium ipsam vero recusandae natus laboriosam veritatis repudiandae accusantium suscipit ea, similique voluptas hic neque iusto molestias necessitatibus voluptatibus itaque repellendus, cum quasi iste!</p>
+    </div>
+    <div class="card" id="card-2">
+    <h2>This is Html course</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium dolorum sit cupiditate. Repudiandae quam quod, voluptatem corporis tempora ad ipsam tempore repellat autem soluta consequatur architecto dolore dolor et neque voluptatibus nulla necessitatibus?</p>
+    </div>
+    <div class="card" id="card-3">
+    <h2>Card-3</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam labore impedit dicta in ut veritatis cum distinctio nobis delectus sint accusamus exercitationem voluptatum minima maxime repudiandae non dolor itaque fuga voluptas. Debitis, tempore.</p>
+    </div>
+</body>
+</html>

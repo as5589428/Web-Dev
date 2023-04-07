@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex-Box</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 544px;
+            border: 2px solid black;
+            display: flex; /*initialize  the container as a flexbox*/
+            justify-content: center;/* it will justify the content in horizontal manner*/
+            justify-content: space-around;    */  
+            
+            flex-direction: row;/* default  value of flex direction is row*/
+            /*this is the shorthand for flex-direction and flex-wrap*/
+           /* flex-flow: row-reverse;*/
+            
+            align-items: center;
+            align-items: stretch;
+        align-items: stretch;
+        }
+        .item{
+            flex-wrap: wrap;/*default value of flex-wrap is no wrap*/
+            height: 100px;
+            width: 80px;
+            background-color:tomato;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 9px;
+        }
+        
+        #item1{order: 10;
+        flex-grow:1;
+        align-self: flex-end;}
+        #item2{}
+        #item3{}
+    </style>
+</head>
+<body>
+<h1>This is Flex-Box</h1>
+<div class="container"> 
+
+<div class="item" id="item1">This is First Box</div>
+<div class="item" id="item2">This is second box</div>
+<div class="item" id="item3">This is third box</div>
+<!---<div class="item" id="item4">This is fourth Box</div>
+<div class="item" id="item5">This is fifth Box</div>-->
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

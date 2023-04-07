@@ -1,0 +1,27 @@
+.h4 h4{
+    color: red;
+}
+.h {
+    color: red;
+    
+}
+.btn nav{
+     margin: 0px 9px;
+    background-color: coral;
+    color: white;
+    padding: 4px 12px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.d-flex{
+    color: red;
+    animation-duration: 2s;
+}
+.d-block {
+    width: 50em;
+    height: 30em;
+    margin: auto;
+    padding: 0px;
+    
+}

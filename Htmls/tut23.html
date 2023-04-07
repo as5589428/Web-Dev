@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation</title>
+    <style>
+        #logo {
+            width: 79px;
+            height: 93px;
+            background-color: #7952b2;
+        }
+
+        .navbar {
+
+
+            background-color: #7952b2;
+
+            padding: 50px 5px 5px 100px;
+            margin: 5px;
+
+            color: red;.
+            font-family: cursive;
+            font-size: 18px;
+        }
+
+
+        .navbar ul {
+            overflow: auto;
+
+        }
+
+        #logo {
+            float: left;
+            display: inline-block;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+            padding-top: 3px;
+
+        }
+
+        .navbar a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: wheat;
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+
+        }
+
+        a:hover {
+            color: red;
+        }
+        .drop-down{
+            
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<!-- Just an image -->
+
+<body>
+    <img src="Images/bootstrap.jpg" id="logo">
+    <header>
+        <nav class="navbar">
+            <ul>
+
+
+
+                <li><a href="#">Home</a></li>
+               
+
+
+
+                <li><a class="drop-down" href="#">Examples</a></li>
+                <li><a href="#">Icons</a></li>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">Expo</a></li>
+                <li><a href="#">Blog</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder=" This Website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

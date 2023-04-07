@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+      }
+      header::before {
+        background: url("https://source.unsplash.com/collection/190727/1600x900");
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.3;
+      }
+      .navigation {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 20px;
+        display: flex;
+      }
+      li {
+        list-style-type: none;
+        padding: 20px 23px;
+      }
+      section {
+        font-family: "Josefin Sans", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: center;
+        margin: 50px;
+      }
+      section::before {
+        content: "this is a content";
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="navigation">
+          <li class="item">Home</li>
+          <li class="item">About</li>
+          <li class="item">Services</li>
+          <li class="item">Contact us</li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>Welcome to coding</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        aliquid quasi tempora sint, at magnam, quisquam illo exercitationem
+        dolorum voluptatem incidunt ratione reprehenderit non? Odio rem quos
+        aperiam commodi cupiditate, hic suscipit aut neque.
+      </p>
+    </section>
+    <hr />
+  </body>
+</html>

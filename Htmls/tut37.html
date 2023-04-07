@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #box {
+        display: flex;
+        height: 200px;
+        width: 200px;
+        background-color: green;
+        justify-content: center;
+        align-items: center;
+        transition-property: background-color;
+        transition-duration: 2s;
+        /* transition-timing-function: ease-in-out;*/
+        /*transition-delay: 2s;*/
+        /*Transition Shorthand Property*/
+        transition: all 1s ease-in-out 0.3s;
+      }
+      #box:hover {
+        border-radius: 200px;
+        background-color: red;
+        height: 400px;
+        width: 300px;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>This is Css Transistion</h3>
+    <div class="conatainer">
+      <div id="box">this is my box</div>
+    </div>
+  </body>
+</html>
